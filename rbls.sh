@@ -9,7 +9,6 @@ done
 
 for x in ${RBLS[@]};
 do
-#	echo $x;
 	for xx in "${ips[@]}";
 	do
 		#echo "$xx.$x"
@@ -18,8 +17,3 @@ do
 		fi
 	done
 done
-
-#for z in "${ips[@]}";
-#do
-#	echo $z;
-#done
