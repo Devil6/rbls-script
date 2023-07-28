@@ -2,6 +2,19 @@
 
 Small shell script for checking if a domain is on any DNS RBL
 
+Usage:
+```
+rbls.sh DOMAINHERE
+```
+
+Example:
+```
+rbls.sh example.com
+```
+
+This script will lookup the domains MX records, resolve them, then run  the IP's against the RBL's currently configured.
+
+
 Currently checks the following RBL's
 
 
